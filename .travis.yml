@@ -9,3 +9,5 @@ deploy:
   api_key:
     secure: heroku_app_key
   app: books-api-python
+  on:
+    branch: main
