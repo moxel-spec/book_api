@@ -7,7 +7,7 @@ script: python --version
 deploy:
   provider: heroku
   api_key:
-    secure: heroku_app_key
+    secure: $heroku_app_key
   app: books-api-python
   on:
     branch: main
