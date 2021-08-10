@@ -14,7 +14,7 @@ BOOKS = [
         'id': uuid.uuid4().hex,
         'title': 'Harry Potter and the Philosopher\'s Stone',
         'author': 'J. K. Rowling',
-        'read': False
+        'read': True
     },
     {
         'id': uuid.uuid4().hex,
