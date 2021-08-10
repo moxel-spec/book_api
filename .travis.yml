@@ -6,8 +6,7 @@ install:
 script: python --version
 deploy:
   provider: heroku
-  api_key:
-    secure: 47bb4f74-c66f-4126-a75e-a6d9a20a2088
+  api_key: $HEROKU_API_KEY
   app: books-api-python
   on:
     branch: main
